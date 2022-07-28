@@ -1,24 +1,18 @@
 
-<head>
-	<script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
-	<link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
-    <link href='styles.css' rel='stylesheet'>
-</head>
-<body>
-    <div id='map'></div>
+#map{
+    height: 800px;
+}
 
-    <div class='map-container'>
-        <select class='map-style-select' multiple>
-            <option>Light</option>
-            <option>Dark</option>
-            <option>Satellite</option>
-            <option>Navigation Day</option>
-            <option>Navigation Night</option>
-        </select>
-        <div class='bus-info'>
-            <!-- text from js -->
-        </div>
-    </div>
-<script src = 'mapanimation.js'>
-</script>
-</body>
+.map-style-select{
+    height: 120px;
+}
+
+.map-container{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mapboxgl-popup{
+    max-width: 60px !important;
+}
