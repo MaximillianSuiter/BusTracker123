@@ -1,18 +1,16 @@
-
-#map{
-    height: 800px;
-}
-
-.map-style-select{
-    height: 120px;
-}
-
-.map-container{
-    display:flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.mapboxgl-popup{
-    max-width: 60px
-}
+body {
+    margin: 0;
+    padding: 0;
+  }
+  #map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .map-overlay {
+    position: absolute;
+    left: 0;
+    padding: 10px;
+  }
