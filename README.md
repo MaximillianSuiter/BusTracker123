@@ -6,10 +6,10 @@
 ## This project involved integrating APIs and live JSON data. The application collects data from a Boston bus route and displays points on the map. 
 
 # Operating the Program
-
+## First, download all the files present in this repository, minding that they are all in the same folder. Go to your editor, and drag the index.html file into the web browser. 
 
 # Roadmap For Future Improvements
-## I'd like to, in classic PacMan fashion, illustrate the pacman being chased by a ghost.
+## I'd like to add additional functionalities to the map, including usingn images/icons as markers, and having the map represent a different area (perhaps Omaha). 
 
 # License
 ## 
