@@ -1,7 +1,7 @@
 # BusTracker123
 #Real Time Bus Tracker
 
-Description:
+#Description:
 This program was created to complete a project for MIT, it's goal was to track the location of a bus. Currrently the program accomplishes this task.
 
 How to Run:
